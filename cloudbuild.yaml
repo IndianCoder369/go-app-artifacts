@@ -7,3 +7,6 @@ artifacts:
   objects:
     location: gs://go-app-artifacts1/
     paths: ["./go-app"]
+
+options:
+  logging: CLOUD_LOGGING_ONLY
